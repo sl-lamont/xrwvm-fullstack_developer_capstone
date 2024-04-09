@@ -124,3 +124,18 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.blue {
+    color:rgb(110, 168, 188);
+}
+
+.bold{
+    font-weight: bold;
+}
