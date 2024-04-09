@@ -26,6 +26,12 @@ img{
 .container{
   justify-content: center;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
 .details{
   font-size: 20px;
   color: rgb(97, 64, 128);
@@ -126,16 +132,27 @@ img{
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+    padding-top: 1%;
+    width: 60%;
 }
 
 .blue {
-    color:rgb(110, 168, 188);
+    color:rgb(42, 103, 189);
+    font-size: large;
+    text-align: center;
 }
 
 .bold{
     font-weight: bold;
+}
+
+.v1{
+    border-left: 4px solid black;
+    height: 300px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
 }
