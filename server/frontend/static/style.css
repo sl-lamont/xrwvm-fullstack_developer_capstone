@@ -26,6 +26,12 @@ img{
 .container{
   justify-content: center;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
 .details{
   font-size: 20px;
   color: rgb(97, 64, 128);
@@ -123,4 +129,30 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.center {
+    margin: auto;
+    padding-top: 1%;
+    width: 60%;
+}
+
+.blue {
+    color:rgb(42, 103, 189);
+    font-size: large;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.v1{
+    border-left: 4px solid black;
+    height: 300px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
 }
