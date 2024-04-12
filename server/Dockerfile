@@ -18,7 +18,7 @@ COPY . $APP
 
 EXPOSE 8000
 
-RUN chomod +x /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
 
 ENTRYPOINT ["/bin/bash", "/app/entrypoint.sh"]
 
